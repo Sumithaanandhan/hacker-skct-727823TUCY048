@@ -1,0 +1,29 @@
+project_name: SKCT_727823TUCY048_S3BucketScanner
+roll_number: "727823TUCY048"
+student_name: "[YOUR NAME]"
+date: "2026-03-29"
+
+pipeline:
+  - stage: setup
+    script: code/setup_lab.py
+    description: Install all dependencies
+
+  - stage: run
+    script: code/run_tool.py
+    description: Execute the S3 bucket scanner
+
+  - stage: analyze
+    script: code/analyze_results.py
+    description: Analyze and summarize scan results
+```
+
+---
+
+### FILE 6 — `requirements.txt`
+```
+boto3==1.34.69
+botocore==1.34.69
+requests==2.31.0
+pyyaml==6.0.1
+pandas==2.2.1
+jupyter==1.0.0
