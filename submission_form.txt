@@ -1,0 +1,9 @@
+Name: Sumitha A
+Roll Number: 727823TUCY048
+Project Name: Cloud S3 Bucket Scanner
+Project Category: Cloud Security / Reconnaissance
+GitHub URL: https://github.com/Sumithaanandhan/hacker-skct-727823TUCY048
+Total Commits: 7
+Tools Used: Python, boto3, requests, AWS S3, Jupyter Notebook
+Tool Summary: Scans AWS S3 buckets to detect public access misconfigurations,
+enumerate exposed objects, and audit ACL permissions using boto3 and HTTP probing.
